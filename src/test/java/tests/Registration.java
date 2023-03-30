@@ -39,6 +39,35 @@ public class Registration extends TestBase {
         Assert.assertEquals(app.getHelperUser().getMessage(),"You are logged in success");
     }
 
+    //@Test
+   // public void registrationWrongEmail(){
+     //   User user = new User()
+             //   .setFirstName("Gomer")
+              //  .setLastName("Simpson")
+            //    .setEmail("simpsongmail.com")
+              //  .setPassword("Sim12345$");
+
+    //}
+
+  //  @Test
+    //public void registrationWrongPassword(){
+     //   User user = new User()
+             //   .setFirstName("Gomer")
+              //  .setLastName("Simpson")
+          //      .setEmail("simpson@gmail.com")
+              //  .setPassword("Sim123");
+
+   // }
+
+   // @Test
+   // public void registrationWrongPassword(){
+       // User user = new User()
+             //   .setFirstName("Gomer")
+             //   .setLastName("Simpson")
+             //   .setEmail("simpson@gmail.com")
+              //
+   // }
+
     @AfterMethod
     public void postCondition(){
         app.getHelperUser().closeWindow();

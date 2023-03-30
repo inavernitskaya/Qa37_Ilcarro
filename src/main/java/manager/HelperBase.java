@@ -23,6 +23,10 @@ public class HelperBase {
         }
     }
 
+    //public void clearNew(WebElement element){
+
+    //}
+
     public void click(By locator){
         WebElement element = wd.findElement(locator);
         element.click();
