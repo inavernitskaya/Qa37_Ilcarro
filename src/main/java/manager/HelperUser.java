@@ -63,6 +63,7 @@ public class HelperUser extends HelperBase {
     ///****************** Registration****************
 
     public void openRegistrationForm() {
+        pause(500);
         click(By.xpath("//a[text()=' Sign up ']"));
     }
 
@@ -77,27 +78,30 @@ public class HelperUser extends HelperBase {
         // click(By.id("terms-of-use")); 0*0
         click(By.cssSelector("label[for='terms-of-use']"));
         // document.querySelector('#terms-of-use').click();
-        // pause(3000);
-        //  JavascriptExecutor js = (JavascriptExecutor) wd;
-        //  js.executeScript("document.querySelector('#terms-of-use').click();");
+//        pause(3000);
+//        JavascriptExecutor js = (JavascriptExecutor) wd;
+//        js.executeScript("document.querySelector('#terms-of-use').click();");
     }
 
 
-    public void checkPolicyXY() {
-        Dimension size = wd.manage().window().getSize();
-        System.out.println("Wight screen -->" + size.getWidth());
+    public void checkPolicyXY(){
+        if(!wd.findElement(By.id("terms-of-use")).isSelected()) {
+            Dimension size = wd.manage().window().getSize();
+            System.out.println("Wight screen -->" + size.getWidth());
 
-        WebElement label = wd.findElement(By.cssSelector("label[for='terms-of-use']"));
-        Dimension dimension = label.getSize();
+            WebElement label = wd.findElement(By.cssSelector("label[for='terms-of-use']"));
 
-        Rectangle rect = label.getRect();
-        int w = rect.getWidth();
+            Dimension dimension = label.getSize();
 
-        int xOffSet = -w / 2;
+            Rectangle rect = label.getRect();
+            int w = rect.getWidth();
 
-        Actions actions = new Actions(wd);
+            int xOffSet = -w / 2;
 
-        actions.moveToElement(label, xOffSet, 0).click().release().perform();
+            Actions actions = new Actions(wd);
+
+            actions.moveToElement(label, xOffSet, 0).click().release().perform();
+        }
     }
 
     public void login(User user) {
@@ -105,5 +109,6 @@ public class HelperUser extends HelperBase {
         fillLoginForm(user);
         submit();
         closeWindow();
+
     }
 }
