@@ -13,11 +13,13 @@ public class LoginTests extends TestBase {
 
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
+            //logger.info("Before method finish logout");
         }
     }
 
     @Test
     public void loginSuccess() {
+        logger.info("Test start with test data --->" +"email:inna_83@gmail.com & password:Aa13579$");
         app.getHelperUser().openLoginForm();
         app.getHelperUser().fillLoginForm("inna_83@gmail.com", "Aa13579$");
         app.getHelperUser().submit();
@@ -31,6 +33,7 @@ public class LoginTests extends TestBase {
           User user = new User().setEmail("inna_83@gmail.com").setPassword("Aa13579$");
 //        user.setEmail("inna_83@gmail.com");
 //        user.setPassword("Aa13579$");
+        logger.info("Test start with test data --->" + user.toString());
 
             app.getHelperUser().openLoginForm();
             app.getHelperUser().fillLoginForm(user);
@@ -41,6 +44,7 @@ public class LoginTests extends TestBase {
 
     @Test
     public void loginSuccessModel() {
+        logger.info("Test start with test data --->/n" + "email : 'inna_83@gmail.com' & password : 'Aa13579$'");
             app.getHelperUser().openLoginForm();
             app.getHelperUser().fillLoginForm("inna_83@gmail.com", "Aa13579$");
             app.getHelperUser().submit();
@@ -49,6 +53,7 @@ public class LoginTests extends TestBase {
         }
         @Test
          public void loginWrongEmail() {
+            logger.info("Test negative check if it possible to login with wrong format email ");
             app.getHelperUser().openLoginForm();
             app.getHelperUser().fillLoginForm("inna_83gmail.com", "Aa13579$");
             app.getHelperUser().submit();
@@ -58,6 +63,7 @@ public class LoginTests extends TestBase {
 
         @Test
         public void loginWrongPassword() {
+            logger.info("Test negative check if it possible to login with wrong format password ");
             app.getHelperUser().openLoginForm();
             app.getHelperUser().fillLoginForm("inna_83@gmail.com", "Aa13");
             app.getHelperUser().submit();
@@ -66,6 +72,7 @@ public class LoginTests extends TestBase {
 
         @Test
         public void loginUnregisteredUser () {
+            logger.info("Test negative check if it possible to login with valid format data unregistered user ");
             app.getHelperUser().openLoginForm();
             app.getHelperUser().fillLoginForm("pinokio@gmail.com", "Pn6474849$");
             app.getHelperUser().submit();

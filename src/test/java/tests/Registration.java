@@ -30,7 +30,7 @@ public class Registration extends TestBase {
                 .setLastName("Snow")
                 .setEmail("snow"+i+"@gmail.com")
                 .setPassword("Snow12345$");
-
+        logger.info("Test start with test data --->" + user.toString());
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
@@ -46,6 +46,7 @@ public class Registration extends TestBase {
                 .setLastName("Snow")
                 .setEmail("snow@gmail.com")
                 .setPassword("Snow12345$");
+        logger.info("Test start with test data --->" + user.toString());
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
@@ -61,6 +62,7 @@ public class Registration extends TestBase {
                 .setLastName("")
                 .setEmail("snow@gmail.com")
                 .setPassword("Snow12345$");
+        logger.info("Test start with test data --->" + user.toString());
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
@@ -75,6 +77,7 @@ public class Registration extends TestBase {
                 .setLastName("Snow")
                 .setEmail("snowgmail.com")
                 .setPassword("Snow12345$");
+        logger.info("Test start with test data --->" + user.toString());
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
@@ -91,6 +94,7 @@ public class Registration extends TestBase {
                 .setLastName("Snow")
                 .setEmail("snow@gmail.com")
                 .setPassword("Snow12");
+        logger.info("Test start with test data --->" + user.toString());
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().fillRegistrationForm(user);
         app.getHelperUser().checkPolicyXY();
