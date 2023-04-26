@@ -1,5 +1,6 @@
 package tests;
 
+import manager.DataProviderUser;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -17,14 +18,17 @@ public class LoginTests extends TestBase {
         }
     }
 
-    @Test
+    @Test(dataProvider = "loginData",dataProviderClass = DataProviderUser.class)
     public void loginSuccess() {
-        logger.info("Test start with test data --->" +"email:inna_83@gmail.com & password:Aa13579$");
+       logger.info("Start test with name 'loginSuccess'");
+        //logger.info("Test start with test data --->" +"email:inna_83@gmail.com & password:Aa13579$");
+        logger.info("Test data ---> email: "+email+" & password : "+password);
         app.getHelperUser().openLoginForm();
-        app.getHelperUser().fillLoginForm("inna_83@gmail.com", "Aa13579$");
+        app.getHelperUser().fillLoginForm(email, password);
         app.getHelperUser().submit();
-        //Assert if element with text "Logged in success" is present
-        Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
+        Assert.assertTrue(app.getHelperUser().isLogged());
+        logger.info("Assert check is Element button 'Sign out' present");
+    }
 
     }
 
