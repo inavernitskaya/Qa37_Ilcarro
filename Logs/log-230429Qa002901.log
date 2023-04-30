@@ -1,0 +1,374 @@
+00:29:04.969  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+00:29:07.934  INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+00:29:08.021  INFO  tests.TestBase - Name of method -->loginSuccess
+00:29:08.027  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:13.092  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:13.102  INFO  manager.ListenerWD - list of elements is -->0
+00:29:13.105  INFO  tests.TestBase - Start test with name 'loginSuccess'
+00:29:13.120  INFO  tests.TestBase - Test data ---> email: inna_83@gmail.com & password : Aa13579$
+00:29:13.140  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:13.199  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:13.231  INFO  manager.ListenerWD - Location of element (1057, 24)
+00:29:13.347  INFO  manager.ListenerWD - Before Find Element --->By.id: email
+00:29:13.406  INFO  manager.ListenerWD - After Find Element --->By.id: email
+00:29:13.431  INFO  manager.ListenerWD - Location of element (889, 254)
+00:29:13.901  INFO  manager.ListenerWD - Before Find Element --->By.id: password
+00:29:13.947  INFO  manager.ListenerWD - After Find Element --->By.id: password
+00:29:13.966  INFO  manager.ListenerWD - Location of element (889, 327)
+00:29:14.374  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:29:14.424  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:29:14.442  INFO  manager.ListenerWD - Location of element (889, 395)
+00:29:14.528  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:15.597  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:15.598  INFO  manager.ListenerWD - list of elements is -->1
+00:29:15.607  INFO  tests.TestBase - Assert check is Element button 'Sign out' present
+00:29:15.615  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:15.678  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:15.679  INFO  manager.ListenerWD - list of elements is -->1
+00:29:15.679  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //button[text()='Ok']
+00:29:15.719  INFO  manager.ListenerWD - After Find Element --->By.xpath: //button[text()='Ok']
+00:29:15.741  INFO  manager.ListenerWD - Location of element (665, 324)
+00:29:15.814  INFO  tests.TestBase - Name of method -->loginSuccess
+00:29:15.816  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:15.857  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:15.858  INFO  manager.ListenerWD - list of elements is -->1
+00:29:15.861  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:15.923  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:16.002  INFO  manager.ListenerWD - Location of element (870, 24)
+00:29:16.124  INFO  tests.TestBase - Start test with name 'loginSuccess'
+00:29:16.125  INFO  tests.TestBase - Test data ---> email: noa@gmail.com & password : Nnoa12345$
+00:29:16.125  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:16.181  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:16.203  INFO  manager.ListenerWD - Location of element (1057, 24)
+00:29:16.311  INFO  manager.ListenerWD - Before Find Element --->By.id: email
+00:29:16.351  INFO  manager.ListenerWD - After Find Element --->By.id: email
+00:29:16.368  INFO  manager.ListenerWD - Location of element (889, 254)
+00:29:16.831  INFO  manager.ListenerWD - Before Find Element --->By.id: password
+00:29:16.873  INFO  manager.ListenerWD - After Find Element --->By.id: password
+00:29:16.891  INFO  manager.ListenerWD - Location of element (889, 327)
+00:29:17.282  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:29:17.326  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:29:17.343  INFO  manager.ListenerWD - Location of element (889, 395)
+00:29:17.406  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:17.712  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:17.713  INFO  manager.ListenerWD - list of elements is -->1
+00:29:17.714  INFO  tests.TestBase - Assert check is Element button 'Sign out' present
+00:29:17.719  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:17.758  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:17.759  INFO  manager.ListenerWD - list of elements is -->1
+00:29:17.760  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //button[text()='Ok']
+00:29:17.802  INFO  manager.ListenerWD - After Find Element --->By.xpath: //button[text()='Ok']
+00:29:17.824  INFO  manager.ListenerWD - Location of element (665, 324)
+00:29:17.908  INFO  tests.TestBase - Name of method -->loginSuccess
+00:29:17.911  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:17.951  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:17.952  INFO  manager.ListenerWD - list of elements is -->1
+00:29:17.952  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:17.991  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:18.064  INFO  manager.ListenerWD - Location of element (870, 24)
+00:29:18.188  INFO  tests.TestBase - Start test with name 'loginSuccess'
+00:29:18.189  INFO  tests.TestBase - Test data ---> email: inna_83@gmail.com & password : Aa13579$
+00:29:18.189  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:18.228  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:18.251  INFO  manager.ListenerWD - Location of element (1057, 24)
+00:29:18.351  INFO  manager.ListenerWD - Before Find Element --->By.id: email
+00:29:18.396  INFO  manager.ListenerWD - After Find Element --->By.id: email
+00:29:18.416  INFO  manager.ListenerWD - Location of element (889, 254)
+00:29:18.860  INFO  manager.ListenerWD - Before Find Element --->By.id: password
+00:29:18.890  INFO  manager.ListenerWD - After Find Element --->By.id: password
+00:29:18.909  INFO  manager.ListenerWD - Location of element (889, 327)
+00:29:19.259  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:29:19.306  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:29:19.324  INFO  manager.ListenerWD - Location of element (889, 395)
+00:29:19.394  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:19.709  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:19.710  INFO  manager.ListenerWD - list of elements is -->1
+00:29:19.710  INFO  tests.TestBase - Assert check is Element button 'Sign out' present
+00:29:19.713  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:19.753  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:19.753  INFO  manager.ListenerWD - list of elements is -->1
+00:29:19.754  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //button[text()='Ok']
+00:29:19.790  INFO  manager.ListenerWD - After Find Element --->By.xpath: //button[text()='Ok']
+00:29:19.814  INFO  manager.ListenerWD - Location of element (665, 323)
+00:29:19.916  INFO  tests.TestBase - Name of method -->loginSuccess1
+00:29:19.919  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:19.955  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:19.956  INFO  manager.ListenerWD - list of elements is -->1
+00:29:19.956  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:19.992  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:20.056  INFO  manager.ListenerWD - Location of element (870, 24)
+00:29:20.248  INFO  tests.TestBase - Test start with test data --->User{firstName='null', lastName='null', email='inna_83@gmail.com', password='Aa13579$'}
+00:29:20.248  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:20.297  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:20.316  INFO  manager.ListenerWD - Location of element (1057, 24)
+00:29:20.413  INFO  manager.ListenerWD - Before Find Element --->By.id: email
+00:29:20.457  INFO  manager.ListenerWD - After Find Element --->By.id: email
+00:29:20.475  INFO  manager.ListenerWD - Location of element (889, 254)
+00:29:20.954  INFO  manager.ListenerWD - Before Find Element --->By.id: password
+00:29:20.989  INFO  manager.ListenerWD - After Find Element --->By.id: password
+00:29:21.010  INFO  manager.ListenerWD - Location of element (889, 327)
+00:29:21.478  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:29:21.514  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:29:21.540  INFO  manager.ListenerWD - Location of element (889, 395)
+00:29:21.650  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container
+00:29:21.980  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container
+00:29:22.002  INFO  manager.ListenerWD - Location of element (462, 229)
+00:29:22.079  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container>h2
+00:29:22.125  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container>h2
+00:29:22.145  INFO  manager.ListenerWD - Location of element (455, 270)
+00:29:22.175  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:22.222  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:22.222  INFO  manager.ListenerWD - list of elements is -->1
+00:29:22.223  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //button[text()='Ok']
+00:29:22.270  INFO  manager.ListenerWD - After Find Element --->By.xpath: //button[text()='Ok']
+00:29:22.298  INFO  manager.ListenerWD - Location of element (665, 324)
+00:29:22.371  INFO  tests.TestBase - Name of method -->loginSuccess1
+00:29:22.374  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:22.409  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:22.409  INFO  manager.ListenerWD - list of elements is -->1
+00:29:22.410  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:22.445  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:22.515  INFO  manager.ListenerWD - Location of element (870, 24)
+00:29:22.638  INFO  tests.TestBase - Test start with test data --->User{firstName='null', lastName='null', email='noa@gmail.com', password='Nnoa12345$'}
+00:29:22.638  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:22.674  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:22.698  INFO  manager.ListenerWD - Location of element (1057, 24)
+00:29:22.807  INFO  manager.ListenerWD - Before Find Element --->By.id: email
+00:29:22.840  INFO  manager.ListenerWD - After Find Element --->By.id: email
+00:29:22.857  INFO  manager.ListenerWD - Location of element (889, 254)
+00:29:23.281  INFO  manager.ListenerWD - Before Find Element --->By.id: password
+00:29:23.311  INFO  manager.ListenerWD - After Find Element --->By.id: password
+00:29:23.327  INFO  manager.ListenerWD - Location of element (889, 327)
+00:29:23.706  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:29:23.736  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:29:23.753  INFO  manager.ListenerWD - Location of element (889, 395)
+00:29:23.812  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container
+00:29:24.106  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container
+00:29:24.131  INFO  manager.ListenerWD - Location of element (480, 234)
+00:29:24.169  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container>h2
+00:29:24.206  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container>h2
+00:29:24.227  INFO  manager.ListenerWD - Location of element (456, 270)
+00:29:24.267  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:24.297  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:24.298  INFO  manager.ListenerWD - list of elements is -->1
+00:29:24.299  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //button[text()='Ok']
+00:29:24.335  INFO  manager.ListenerWD - After Find Element --->By.xpath: //button[text()='Ok']
+00:29:24.357  INFO  manager.ListenerWD - Location of element (665, 324)
+00:29:24.435  INFO  tests.TestBase - Name of method -->loginSuccess1
+00:29:24.438  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:24.474  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:24.474  INFO  manager.ListenerWD - list of elements is -->1
+00:29:24.474  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:24.508  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:24.579  INFO  manager.ListenerWD - Location of element (870, 24)
+00:29:24.709  INFO  tests.TestBase - Test start with test data --->User{firstName='null', lastName='null', email='inna_83@gmail.com', password='Aa13579$'}
+00:29:24.709  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:24.752  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:24.771  INFO  manager.ListenerWD - Location of element (1057, 24)
+00:29:24.869  INFO  manager.ListenerWD - Before Find Element --->By.id: email
+00:29:24.901  INFO  manager.ListenerWD - After Find Element --->By.id: email
+00:29:24.916  INFO  manager.ListenerWD - Location of element (889, 254)
+00:29:25.367  INFO  manager.ListenerWD - Before Find Element --->By.id: password
+00:29:25.401  INFO  manager.ListenerWD - After Find Element --->By.id: password
+00:29:25.421  INFO  manager.ListenerWD - Location of element (889, 327)
+00:29:25.828  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:29:25.856  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:29:25.871  INFO  manager.ListenerWD - Location of element (889, 395)
+00:29:25.939  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container
+00:29:26.241  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container
+00:29:26.265  INFO  manager.ListenerWD - Location of element (472, 232)
+00:29:26.300  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container>h2
+00:29:26.338  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container>h2
+00:29:26.368  INFO  manager.ListenerWD - Location of element (455, 270)
+00:29:26.401  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:26.434  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:26.435  INFO  manager.ListenerWD - list of elements is -->1
+00:29:26.435  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //button[text()='Ok']
+00:29:26.470  INFO  manager.ListenerWD - After Find Element --->By.xpath: //button[text()='Ok']
+00:29:26.492  INFO  manager.ListenerWD - Location of element (665, 324)
+00:29:26.583  INFO  tests.TestBase - Name of method -->loginSuccessModel
+00:29:26.586  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:26.623  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:26.624  INFO  manager.ListenerWD - list of elements is -->1
+00:29:26.624  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:26.657  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:26.721  INFO  manager.ListenerWD - Location of element (870, 24)
+00:29:26.849  INFO  tests.TestBase - Test start with test data --->/nemail : 'inna_83@gmail.com' & password : 'Aa13579$'
+00:29:26.850  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:26.888  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:26.907  INFO  manager.ListenerWD - Location of element (1057, 24)
+00:29:27.019  INFO  manager.ListenerWD - Before Find Element --->By.id: email
+00:29:27.053  INFO  manager.ListenerWD - After Find Element --->By.id: email
+00:29:27.071  INFO  manager.ListenerWD - Location of element (889, 254)
+00:29:27.540  INFO  manager.ListenerWD - Before Find Element --->By.id: password
+00:29:27.568  INFO  manager.ListenerWD - After Find Element --->By.id: password
+00:29:27.589  INFO  manager.ListenerWD - Location of element (889, 327)
+00:29:27.966  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:29:28.004  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:29:28.022  INFO  manager.ListenerWD - Location of element (889, 395)
+00:29:28.088  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container
+00:29:28.402  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container
+00:29:28.428  INFO  manager.ListenerWD - Location of element (480, 234)
+00:29:28.462  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container>h2
+00:29:28.503  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container>h2
+00:29:28.526  INFO  manager.ListenerWD - Location of element (456, 270)
+00:29:28.563  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:28.601  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:28.602  INFO  manager.ListenerWD - list of elements is -->1
+00:29:28.602  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //button[text()='Ok']
+00:29:28.635  INFO  manager.ListenerWD - After Find Element --->By.xpath: //button[text()='Ok']
+00:29:28.658  INFO  manager.ListenerWD - Location of element (665, 324)
+00:29:28.743  INFO  tests.TestBase - Name of method -->loginSuccessModel
+00:29:28.745  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:28.788  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:28.788  INFO  manager.ListenerWD - list of elements is -->1
+00:29:28.788  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:28.823  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:28.891  INFO  manager.ListenerWD - Location of element (870, 24)
+00:29:29.032  INFO  tests.TestBase - Test start with test data --->/nemail : 'inna_83@gmail.com' & password : 'Aa13579$'
+00:29:29.033  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:29.067  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:29.088  INFO  manager.ListenerWD - Location of element (1057, 24)
+00:29:29.203  INFO  manager.ListenerWD - Before Find Element --->By.id: email
+00:29:29.239  INFO  manager.ListenerWD - After Find Element --->By.id: email
+00:29:29.257  INFO  manager.ListenerWD - Location of element (889, 254)
+00:29:29.717  INFO  manager.ListenerWD - Before Find Element --->By.id: password
+00:29:29.746  INFO  manager.ListenerWD - After Find Element --->By.id: password
+00:29:29.764  INFO  manager.ListenerWD - Location of element (889, 327)
+00:29:30.101  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:29:30.141  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:29:30.167  INFO  manager.ListenerWD - Location of element (889, 395)
+00:29:30.236  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container
+00:29:30.535  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container
+00:29:30.558  INFO  manager.ListenerWD - Location of element (472, 232)
+00:29:30.591  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container>h2
+00:29:30.625  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container>h2
+00:29:30.648  INFO  manager.ListenerWD - Location of element (456, 270)
+00:29:30.684  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:30.715  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:30.716  INFO  manager.ListenerWD - list of elements is -->1
+00:29:30.716  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //button[text()='Ok']
+00:29:30.740  INFO  manager.ListenerWD - After Find Element --->By.xpath: //button[text()='Ok']
+00:29:30.758  INFO  manager.ListenerWD - Location of element (665, 324)
+00:29:30.834  INFO  tests.TestBase - Name of method -->loginSuccessModel
+00:29:30.836  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:30.870  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:30.870  INFO  manager.ListenerWD - list of elements is -->1
+00:29:30.870  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:30.895  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:30.911  INFO  manager.ListenerWD - Location of element (870, 24)
+00:29:31.070  INFO  tests.TestBase - Test start with test data --->/nemail : 'inna_83@gmail.com' & password : 'Aa13579$'
+00:29:31.071  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:31.099  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:31.117  INFO  manager.ListenerWD - Location of element (1057, 24)
+00:29:31.219  INFO  manager.ListenerWD - Before Find Element --->By.id: email
+00:29:31.250  INFO  manager.ListenerWD - After Find Element --->By.id: email
+00:29:31.269  INFO  manager.ListenerWD - Location of element (889, 254)
+00:29:31.771  INFO  manager.ListenerWD - Before Find Element --->By.id: password
+00:29:31.800  INFO  manager.ListenerWD - After Find Element --->By.id: password
+00:29:31.820  INFO  manager.ListenerWD - Location of element (889, 327)
+00:29:32.184  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:29:32.209  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:29:32.227  INFO  manager.ListenerWD - Location of element (889, 395)
+00:29:32.290  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container
+00:29:32.588  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container
+00:29:32.614  INFO  manager.ListenerWD - Location of element (480, 234)
+00:29:32.648  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container>h2
+00:29:32.686  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container>h2
+00:29:32.709  INFO  manager.ListenerWD - Location of element (456, 270)
+00:29:32.754  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:32.788  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:32.788  INFO  manager.ListenerWD - list of elements is -->1
+00:29:32.789  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //button[text()='Ok']
+00:29:32.821  INFO  manager.ListenerWD - After Find Element --->By.xpath: //button[text()='Ok']
+00:29:32.845  INFO  manager.ListenerWD - Location of element (665, 324)
+00:29:32.924  INFO  tests.TestBase - Name of method -->loginUnregisteredUser
+00:29:32.925  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:32.952  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:32.952  INFO  manager.ListenerWD - list of elements is -->1
+00:29:32.952  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:32.980  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Logout ']
+00:29:33.042  INFO  manager.ListenerWD - Location of element (870, 24)
+00:29:33.176  INFO  tests.TestBase - Test negative check if it possible to login with valid format data unregistered user 
+00:29:33.177  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:33.208  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:33.230  INFO  manager.ListenerWD - Location of element (1057, 24)
+00:29:33.334  INFO  manager.ListenerWD - Before Find Element --->By.id: email
+00:29:33.362  INFO  manager.ListenerWD - After Find Element --->By.id: email
+00:29:33.378  INFO  manager.ListenerWD - Location of element (889, 254)
+00:29:33.808  INFO  manager.ListenerWD - Before Find Element --->By.id: password
+00:29:33.833  INFO  manager.ListenerWD - After Find Element --->By.id: password
+00:29:33.850  INFO  manager.ListenerWD - Location of element (889, 327)
+00:29:34.161  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:29:34.198  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:29:34.222  INFO  manager.ListenerWD - Location of element (889, 395)
+00:29:34.299  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container
+00:29:34.771  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container
+00:29:34.798  INFO  manager.ListenerWD - Location of element (466, 230)
+00:29:34.833  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container>h2
+00:29:34.861  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container>h2
+00:29:34.888  INFO  manager.ListenerWD - Location of element (455, 270)
+00:29:34.914  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:34.943  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:34.943  INFO  manager.ListenerWD - list of elements is -->1
+00:29:34.943  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //button[text()='Ok']
+00:29:34.974  INFO  manager.ListenerWD - After Find Element --->By.xpath: //button[text()='Ok']
+00:29:34.998  INFO  manager.ListenerWD - Location of element (665, 324)
+00:29:35.087  INFO  tests.TestBase - Name of method -->loginWrongEmail
+00:29:35.089  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:40.154  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:40.155  INFO  manager.ListenerWD - list of elements is -->0
+00:29:40.156  INFO  tests.TestBase - Test negative check if it possible to login with wrong format email 
+00:29:40.156  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:40.180  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:40.195  INFO  manager.ListenerWD - Location of element (1057, 24)
+00:29:40.272  INFO  manager.ListenerWD - Before Find Element --->By.id: email
+00:29:40.309  INFO  manager.ListenerWD - After Find Element --->By.id: email
+00:29:40.325  INFO  manager.ListenerWD - Location of element (889, 254)
+00:29:40.682  INFO  manager.ListenerWD - Before Find Element --->By.id: password
+00:29:40.708  INFO  manager.ListenerWD - After Find Element --->By.id: password
+00:29:40.723  INFO  manager.ListenerWD - Location of element (889, 346)
+00:29:41.040  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:29:41.162  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:29:41.172  INFO  manager.ListenerWD - Location of element (889, 414)
+00:29:41.215  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: div.error
+00:29:41.243  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: div.error
+00:29:41.259  INFO  manager.ListenerWD - Location of element (889, 296)
+00:29:41.281  INFO  manager.ListenerWD - Before Find ElementS --->By.cssSelector: button[disabled]
+00:29:41.315  INFO  manager.ListenerWD - After Find ElementS --->By.cssSelector: button[disabled]
+00:29:41.316  INFO  manager.ListenerWD - list of elements is -->1
+00:29:41.316  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:29:41.338  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:29:41.350  INFO  manager.ListenerWD - Location of element (889, 414)
+00:29:41.369  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:46.430  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:46.430  INFO  manager.ListenerWD - list of elements is -->0
+00:29:46.432  INFO  tests.TestBase - Name of method -->loginWrongPassword
+00:29:46.433  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:51.478  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:29:51.478  INFO  manager.ListenerWD - list of elements is -->0
+00:29:51.480  INFO  tests.TestBase - Test negative check if it possible to login with wrong format password 
+00:29:51.480  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:51.505  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Log in ']
+00:29:51.521  INFO  manager.ListenerWD - Location of element (1057, 24)
+00:29:51.590  INFO  manager.ListenerWD - Before Find Element --->By.id: email
+00:29:51.630  INFO  manager.ListenerWD - After Find Element --->By.id: email
+00:29:51.642  INFO  manager.ListenerWD - Location of element (889, 254)
+00:29:52.007  INFO  manager.ListenerWD - Before Find Element --->By.id: password
+00:29:52.033  INFO  manager.ListenerWD - After Find Element --->By.id: password
+00:29:52.046  INFO  manager.ListenerWD - Location of element (889, 327)
+00:29:52.337  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:29:52.363  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:29:52.373  INFO  manager.ListenerWD - Location of element (889, 395)
+00:29:52.431  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container
+00:29:52.857  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container
+00:29:52.925  INFO  manager.ListenerWD - Location of element (462, 229)
+00:29:52.956  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container>h2
+00:29:52.991  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container>h2
+00:29:53.018  INFO  manager.ListenerWD - Location of element (455, 270)
+00:29:53.069  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:53.103  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //button[text()='Ok']
+00:29:53.103  INFO  manager.ListenerWD - list of elements is -->1
+00:29:53.103  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //button[text()='Ok']
+00:29:53.153  INFO  manager.ListenerWD - After Find Element --->By.xpath: //button[text()='Ok']
+00:29:53.239  INFO  manager.ListenerWD - Location of element (665, 324)

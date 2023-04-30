@@ -1,0 +1,30 @@
+18:26:26.767  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:26:28.343  INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+18:26:28.384  INFO  tests.TestBase - Name of method -->negativeSearch
+18:26:28.386  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: a.logo
+18:26:28.415  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: a.logo
+18:26:28.427  INFO  manager.ListenerWD - Location of element (128, 16)
+18:26:28.615  INFO  manager.ListenerWD - Before Find Element --->By.id: city
+18:26:28.645  INFO  manager.ListenerWD - After Find Element --->By.id: city
+18:26:28.658  INFO  manager.ListenerWD - Location of element (128, 264)
+18:26:28.811  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: div.pac-item
+18:26:29.151  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: div.pac-item
+18:26:29.162  INFO  manager.ListenerWD - Location of element (128, 306)
+18:26:29.198  INFO  manager.ListenerWD - Before Find Element --->By.id: dates
+18:26:29.219  INFO  manager.ListenerWD - After Find Element --->By.id: dates
+18:26:29.230  INFO  manager.ListenerWD - Location of element (128, 356)
+18:26:29.467  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: div.cdk-overlay-backdrop
+18:26:29.494  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: div.cdk-overlay-backdrop
+18:26:29.503  INFO  manager.ListenerWD - Location of element (0, 0)
+18:26:29.547  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+18:26:29.567  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+18:26:29.578  INFO  manager.ListenerWD - Location of element (128, 410)
+18:26:29.607  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: div.ng-star-inserted
+18:26:29.628  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: div.ng-star-inserted
+18:26:29.635  INFO  manager.ListenerWD - Location of element (128, 379)
+18:26:29.653  INFO  manager.ListenerWD - Before Find ElementS --->By.cssSelector: button[disabled]
+18:26:29.720  INFO  manager.ListenerWD - After Find ElementS --->By.cssSelector: button[disabled]
+18:26:29.723  INFO  manager.ListenerWD - list of elements is -->1
+18:26:29.723  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+18:26:29.740  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+18:26:29.747  INFO  manager.ListenerWD - Location of element (128, 410)

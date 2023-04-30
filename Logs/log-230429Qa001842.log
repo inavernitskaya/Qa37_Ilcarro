@@ -1,0 +1,24 @@
+00:18:45.717  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+00:18:48.287  INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+00:18:48.335  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:18:53.386  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:18:53.391  INFO  manager.ListenerWD - list of elements is -->0
+00:18:53.394  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Log in ']
+00:18:53.469  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Log in ']
+00:18:53.511  INFO  manager.ListenerWD - Location of element (1057, 24)
+00:18:53.619  INFO  manager.ListenerWD - Before Find Element --->By.id: email
+00:18:53.679  INFO  manager.ListenerWD - After Find Element --->By.id: email
+00:18:53.705  INFO  manager.ListenerWD - Location of element (889, 254)
+00:18:54.190  INFO  manager.ListenerWD - Before Find Element --->By.id: password
+00:18:54.240  INFO  manager.ListenerWD - After Find Element --->By.id: password
+00:18:54.262  INFO  manager.ListenerWD - Location of element (889, 327)
+00:18:54.653  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:18:54.698  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:18:54.714  INFO  manager.ListenerWD - Location of element (889, 395)
+00:18:54.791  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //button[text()='Ok']
+00:18:55.971  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //button[text()='Ok']
+00:18:55.972  INFO  manager.ListenerWD - list of elements is -->1
+00:18:55.973  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //button[text()='Ok']
+00:18:56.031  INFO  manager.ListenerWD - After Find Element --->By.xpath: //button[text()='Ok']
+00:18:56.055  INFO  manager.ListenerWD - Location of element (665, 323)
+00:18:56.124  INFO  tests.TestBase - Logout complete

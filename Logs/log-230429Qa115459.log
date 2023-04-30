@@ -1,0 +1,90 @@
+11:55:02.703  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+11:55:05.440  INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+11:55:05.486  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+11:55:10.549  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+11:55:10.556  INFO  manager.ListenerWD - list of elements is -->0
+11:55:10.559  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Log in ']
+11:55:10.624  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Log in ']
+11:55:10.682  INFO  manager.ListenerWD - Location of element (1057, 24)
+11:55:10.810  INFO  manager.ListenerWD - Before Find Element --->By.id: email
+11:55:10.885  INFO  manager.ListenerWD - After Find Element --->By.id: email
+11:55:10.911  INFO  manager.ListenerWD - Location of element (889, 254)
+11:55:11.420  INFO  manager.ListenerWD - Before Find Element --->By.id: password
+11:55:11.476  INFO  manager.ListenerWD - After Find Element --->By.id: password
+11:55:11.494  INFO  manager.ListenerWD - Location of element (889, 327)
+11:55:11.876  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+11:55:11.930  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+11:55:11.948  INFO  manager.ListenerWD - Location of element (889, 395)
+11:55:12.055  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //button[text()='Ok']
+11:55:13.165  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //button[text()='Ok']
+11:55:13.166  INFO  manager.ListenerWD - list of elements is -->1
+11:55:13.166  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //button[text()='Ok']
+11:55:13.217  INFO  manager.ListenerWD - After Find Element --->By.xpath: //button[text()='Ok']
+11:55:13.231  INFO  manager.ListenerWD - Location of element (655, 311)
+11:55:13.313  INFO  tests.TestBase - Logout complete
+11:55:13.355  INFO  tests.TestBase - Name of method -->addNewCarSuccessAll
+11:55:13.408  INFO  tests.TestBase - Test start with test data --->Car(location=Tel Aviv, Israel, manufacture=Honda, model=HRV, year=2022, fuel=Hybrid, seats=5, carClass=C, carRegNumber=678-900-, price=50.0, about=Very nice car)
+11:55:13.919  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Let the car work ']
+11:55:13.973  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Let the car work ']
+11:55:13.990  INFO  manager.ListenerWD - Location of element (524, 24)
+11:55:14.113  INFO  manager.ListenerWD - Before Find Element --->By.id: pickUpPlace
+11:55:14.164  INFO  manager.ListenerWD - After Find Element --->By.id: pickUpPlace
+11:55:14.186  INFO  manager.ListenerWD - Location of element (115, 295)
+11:55:14.524  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: div.pac-item
+11:55:15.518  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: div.pac-item
+11:55:15.544  INFO  manager.ListenerWD - Location of element (115, 338)
+11:55:15.621  INFO  manager.ListenerWD - Before Find Element --->By.id: make
+11:55:15.667  INFO  manager.ListenerWD - After Find Element --->By.id: make
+11:55:15.686  INFO  manager.ListenerWD - Location of element (115, 469)
+11:55:16.077  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: #model
+11:55:16.119  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: #model
+11:55:16.140  INFO  manager.ListenerWD - Location of element (115, 548)
+11:55:16.471  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //input[@id='year']
+11:55:16.528  INFO  manager.ListenerWD - After Find Element --->By.xpath: //input[@id='year']
+11:55:16.550  INFO  manager.ListenerWD - Location of element (115, 621)
+11:55:16.946  INFO  manager.ListenerWD - Before Find Element --->By.id: fuel
+11:55:16.986  INFO  manager.ListenerWD - After Find Element --->By.id: fuel
+11:55:16.999  INFO  manager.ListenerWD - Location of element (115, 695)
+11:55:17.162  INFO  manager.ListenerWD - Before Find Element --->By.id: seats
+11:55:17.210  INFO  manager.ListenerWD - After Find Element --->By.id: seats
+11:55:17.229  INFO  manager.ListenerWD - Location of element (115, 769)
+11:55:17.629  INFO  manager.ListenerWD - Before Find Element --->By.id: class
+11:55:17.685  INFO  manager.ListenerWD - After Find Element --->By.id: class
+11:55:17.712  INFO  manager.ListenerWD - Location of element (115, 842)
+11:55:18.059  INFO  manager.ListenerWD - Before Find Element --->By.id: serialNumber
+11:55:18.111  INFO  manager.ListenerWD - After Find Element --->By.id: serialNumber
+11:55:18.129  INFO  manager.ListenerWD - Location of element (115, 916)
+11:55:18.538  INFO  manager.ListenerWD - Before Find Element --->By.id: price
+11:55:18.586  INFO  manager.ListenerWD - After Find Element --->By.id: price
+11:55:18.604  INFO  manager.ListenerWD - Location of element (115, 989)
+11:55:19.065  INFO  manager.ListenerWD - Before Find Element --->By.id: about
+11:55:19.106  INFO  manager.ListenerWD - After Find Element --->By.id: about
+11:55:19.125  INFO  manager.ListenerWD - Location of element (115, 1087)
+11:55:19.466  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+11:55:19.498  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+11:55:19.517  INFO  manager.ListenerWD - Location of element (115, 1449)
+11:55:19.628  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container
+11:55:20.015  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container
+11:55:20.036  INFO  manager.ListenerWD - Location of element (472, 232)
+11:55:20.120  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container>h2
+11:55:20.193  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container>h2
+11:55:20.220  INFO  manager.ListenerWD - Location of element (455, 270)
+11:55:20.286  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: //button[normalize-space()='Search cars'])
+11:55:20.394  INFO  manager.ListenerWD - Huston we have a problem!
+11:55:20.396  INFO  manager.ListenerWD - Object target  --->ChromeDriver: chrome on WINDOWS (fc08bf7b79a82fcc5212d28a387b1fd7)
+11:55:20.396  INFO  manager.ListenerWD - *************
+11:55:20.397  INFO  manager.ListenerWD - Method name --->findElement
+11:55:20.399  INFO  manager.ListenerWD - *************
+11:55:20.400  INFO  manager.ListenerWD - *************
+11:55:20.401  INFO  manager.ListenerWD - *************
+11:55:20.410  INFO  manager.ListenerWD - InvocationTargetException & getTargetException -->org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=112.0.5615.138)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc08bf7b79a82fcc5212d28a387b1fd7, findElement {using=css selector, value=//button[normalize-space()='Search cars'])}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\ADAM-M~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:65084}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65084/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: fc08bf7b79a82fcc5212d28a387b1fd7
+11:55:20.413  INFO  manager.ListenerWD - *************
+11:55:20.418  INFO  manager.ListenerWD - Screen with error  is --->src/test/screenshots/screen_1704.png

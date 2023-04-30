@@ -1,0 +1,136 @@
+00:19:26.099  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+00:19:28.727  INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+00:19:28.765  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:19:33.832  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //a[text()=' Logout ']
+00:19:33.842  INFO  manager.ListenerWD - list of elements is -->0
+00:19:33.846  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Log in ']
+00:19:33.913  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Log in ']
+00:19:33.960  INFO  manager.ListenerWD - Location of element (1057, 24)
+00:19:34.078  INFO  manager.ListenerWD - Before Find Element --->By.id: email
+00:19:34.135  INFO  manager.ListenerWD - After Find Element --->By.id: email
+00:19:34.162  INFO  manager.ListenerWD - Location of element (889, 254)
+00:19:34.626  INFO  manager.ListenerWD - Before Find Element --->By.id: password
+00:19:34.676  INFO  manager.ListenerWD - After Find Element --->By.id: password
+00:19:34.694  INFO  manager.ListenerWD - Location of element (889, 327)
+00:19:35.059  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:19:35.102  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:19:35.120  INFO  manager.ListenerWD - Location of element (889, 395)
+00:19:35.203  INFO  manager.ListenerWD - Before Find ElementS --->By.xpath: //button[text()='Ok']
+00:19:36.402  INFO  manager.ListenerWD - After Find ElementS --->By.xpath: //button[text()='Ok']
+00:19:36.403  INFO  manager.ListenerWD - list of elements is -->1
+00:19:36.405  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //button[text()='Ok']
+00:19:36.464  INFO  manager.ListenerWD - After Find Element --->By.xpath: //button[text()='Ok']
+00:19:36.484  INFO  manager.ListenerWD - Location of element (665, 323)
+00:19:36.554  INFO  tests.TestBase - Logout complete
+00:19:36.594  INFO  tests.TestBase - Name of method -->addNewCarSuccess
+00:19:36.663  INFO  tests.TestBase - Test start with test data --->Car(location=Jerusalem, Israel, manufacture=BMW, model=M5, year=2020, fuel=Hybrid, seats=4, carClass=C, carRegNumber=238-555-, price=50.0, about=null)
+00:19:37.174  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Let the car work ']
+00:19:37.222  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Let the car work ']
+00:19:37.242  INFO  manager.ListenerWD - Location of element (524, 24)
+00:19:37.376  INFO  manager.ListenerWD - Before Find Element --->By.id: pickUpPlace
+00:19:37.427  INFO  manager.ListenerWD - After Find Element --->By.id: pickUpPlace
+00:19:37.447  INFO  manager.ListenerWD - Location of element (115, 295)
+00:19:37.809  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: div.pac-item
+00:19:38.226  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: div.pac-item
+00:19:38.247  INFO  manager.ListenerWD - Location of element (115, 338)
+00:19:38.317  INFO  manager.ListenerWD - Before Find Element --->By.id: make
+00:19:38.367  INFO  manager.ListenerWD - After Find Element --->By.id: make
+00:19:38.384  INFO  manager.ListenerWD - Location of element (115, 469)
+00:19:38.732  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: #model
+00:19:38.777  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: #model
+00:19:38.802  INFO  manager.ListenerWD - Location of element (115, 548)
+00:19:39.161  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //input[@id='year']
+00:19:39.215  INFO  manager.ListenerWD - After Find Element --->By.xpath: //input[@id='year']
+00:19:39.234  INFO  manager.ListenerWD - Location of element (115, 621)
+00:19:39.666  INFO  manager.ListenerWD - Before Find Element --->By.id: fuel
+00:19:39.707  INFO  manager.ListenerWD - After Find Element --->By.id: fuel
+00:19:39.726  INFO  manager.ListenerWD - Location of element (115, 695)
+00:19:39.880  INFO  manager.ListenerWD - Before Find Element --->By.id: seats
+00:19:39.926  INFO  manager.ListenerWD - After Find Element --->By.id: seats
+00:19:39.950  INFO  manager.ListenerWD - Location of element (115, 769)
+00:19:40.353  INFO  manager.ListenerWD - Before Find Element --->By.id: class
+00:19:40.401  INFO  manager.ListenerWD - After Find Element --->By.id: class
+00:19:40.420  INFO  manager.ListenerWD - Location of element (115, 842)
+00:19:40.793  INFO  manager.ListenerWD - Before Find Element --->By.id: serialNumber
+00:19:40.837  INFO  manager.ListenerWD - After Find Element --->By.id: serialNumber
+00:19:40.855  INFO  manager.ListenerWD - Location of element (115, 916)
+00:19:41.242  INFO  manager.ListenerWD - Before Find Element --->By.id: price
+00:19:41.279  INFO  manager.ListenerWD - After Find Element --->By.id: price
+00:19:41.296  INFO  manager.ListenerWD - Location of element (115, 989)
+00:19:41.741  INFO  manager.ListenerWD - Before Find Element --->By.id: about
+00:19:41.783  INFO  manager.ListenerWD - After Find Element --->By.id: about
+00:19:41.800  INFO  manager.ListenerWD - Location of element (115, 1087)
+00:19:42.031  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:19:42.068  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:19:42.088  INFO  manager.ListenerWD - Location of element (115, 1449)
+00:19:42.186  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container
+00:19:42.690  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container
+00:19:42.720  INFO  manager.ListenerWD - Location of element (466, 230)
+00:19:42.808  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container>h2
+00:19:42.869  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container>h2
+00:19:42.895  INFO  manager.ListenerWD - Location of element (455, 270)
+00:19:42.958  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container
+00:19:43.007  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container
+00:19:43.025  INFO  manager.ListenerWD - Location of element (455, 227)
+00:19:43.070  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container>h2
+00:19:43.097  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container>h2
+00:19:43.108  INFO  manager.ListenerWD - Location of element (455, 270)
+00:19:43.138  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //button[text()='Search cars']
+00:19:43.175  INFO  manager.ListenerWD - After Find Element --->By.xpath: //button[text()='Search cars']
+00:19:43.194  INFO  manager.ListenerWD - Location of element (600, 324)
+00:19:43.272  INFO  tests.TestBase - Name of method -->addNewCarSuccess
+00:19:43.274  INFO  tests.TestBase - Test start with test data --->Car(location=Ashdod, Israel, manufacture=Renault, model=Captur, year=2017, fuel=Petrol, seats=4, carClass=A, carRegNumber=567-555-, price=35.0, about=null)
+00:19:43.790  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //a[text()=' Let the car work ']
+00:19:43.817  INFO  manager.ListenerWD - After Find Element --->By.xpath: //a[text()=' Let the car work ']
+00:19:43.830  INFO  manager.ListenerWD - Location of element (524, 24)
+00:19:43.912  INFO  manager.ListenerWD - Before Find Element --->By.id: pickUpPlace
+00:19:43.944  INFO  manager.ListenerWD - After Find Element --->By.id: pickUpPlace
+00:19:43.959  INFO  manager.ListenerWD - Location of element (115, 295)
+00:19:44.275  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: div.pac-item
+00:19:44.510  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: div.pac-item
+00:19:44.529  INFO  manager.ListenerWD - Location of element (115, 338)
+00:19:44.602  INFO  manager.ListenerWD - Before Find Element --->By.id: make
+00:19:44.633  INFO  manager.ListenerWD - After Find Element --->By.id: make
+00:19:44.652  INFO  manager.ListenerWD - Location of element (115, 469)
+00:19:45.017  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: #model
+00:19:45.053  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: #model
+00:19:45.070  INFO  manager.ListenerWD - Location of element (115, 548)
+00:19:45.414  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //input[@id='year']
+00:19:45.450  INFO  manager.ListenerWD - After Find Element --->By.xpath: //input[@id='year']
+00:19:45.465  INFO  manager.ListenerWD - Location of element (115, 621)
+00:19:45.835  INFO  manager.ListenerWD - Before Find Element --->By.id: fuel
+00:19:45.863  INFO  manager.ListenerWD - After Find Element --->By.id: fuel
+00:19:45.879  INFO  manager.ListenerWD - Location of element (115, 695)
+00:19:46.023  INFO  manager.ListenerWD - Before Find Element --->By.id: seats
+00:19:46.065  INFO  manager.ListenerWD - After Find Element --->By.id: seats
+00:19:46.092  INFO  manager.ListenerWD - Location of element (115, 769)
+00:19:46.521  INFO  manager.ListenerWD - Before Find Element --->By.id: class
+00:19:46.551  INFO  manager.ListenerWD - After Find Element --->By.id: class
+00:19:46.571  INFO  manager.ListenerWD - Location of element (115, 842)
+00:19:46.975  INFO  manager.ListenerWD - Before Find Element --->By.id: serialNumber
+00:19:47.007  INFO  manager.ListenerWD - After Find Element --->By.id: serialNumber
+00:19:47.022  INFO  manager.ListenerWD - Location of element (115, 916)
+00:19:47.409  INFO  manager.ListenerWD - Before Find Element --->By.id: price
+00:19:47.437  INFO  manager.ListenerWD - After Find Element --->By.id: price
+00:19:47.457  INFO  manager.ListenerWD - Location of element (115, 989)
+00:19:47.880  INFO  manager.ListenerWD - Before Find Element --->By.id: about
+00:19:47.909  INFO  manager.ListenerWD - After Find Element --->By.id: about
+00:19:47.925  INFO  manager.ListenerWD - Location of element (115, 1087)
+00:19:48.157  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+00:19:48.188  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+00:19:48.210  INFO  manager.ListenerWD - Location of element (115, 1449)
+00:19:48.290  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container
+00:19:48.594  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container
+00:19:48.620  INFO  manager.ListenerWD - Location of element (466, 230)
+00:19:48.653  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container>h2
+00:19:48.686  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container>h2
+00:19:48.708  INFO  manager.ListenerWD - Location of element (455, 270)
+00:19:48.741  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container
+00:19:48.774  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container
+00:19:48.796  INFO  manager.ListenerWD - Location of element (455, 227)
+00:19:48.835  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: .dialog-container>h2
+00:19:48.869  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: .dialog-container>h2
+00:19:48.886  INFO  manager.ListenerWD - Location of element (455, 270)
+00:19:48.906  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //button[text()='Search cars']
+00:19:48.948  INFO  manager.ListenerWD - After Find Element --->By.xpath: //button[text()='Search cars']
+00:19:48.966  INFO  manager.ListenerWD - Location of element (600, 324)

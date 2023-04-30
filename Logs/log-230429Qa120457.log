@@ -1,0 +1,45 @@
+12:05:00.351  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+12:05:02.925  INFO  manager.ApplicationManager - The link--->https://ilcarro.web.app/search
+12:05:03.012  INFO  tests.TestBase - Name of method -->searchCurrentMonthSuccess
+12:05:03.017  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: a.logo
+12:05:03.088  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: a.logo
+12:05:03.114  INFO  manager.ListenerWD - Location of element (128, 16)
+12:05:03.619  INFO  manager.ListenerWD - Before Find Element --->By.id: city
+12:05:03.687  INFO  manager.ListenerWD - After Find Element --->By.id: city
+12:05:03.716  INFO  manager.ListenerWD - Location of element (128, 264)
+12:05:04.165  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: div.pac-item
+12:05:04.541  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: div.pac-item
+12:05:04.563  INFO  manager.ListenerWD - Location of element (128, 306)
+12:05:04.632  INFO  manager.ListenerWD - Before Find Element --->By.id: dates
+12:05:04.676  INFO  manager.ListenerWD - After Find Element --->By.id: dates
+12:05:04.699  INFO  manager.ListenerWD - Location of element (128, 356)
+12:05:04.860  INFO  manager.ListenerWD - Before Find Element --->By.id: dates
+12:05:04.927  INFO  manager.ListenerWD - After Find Element --->By.id: dates
+12:05:04.952  INFO  manager.ListenerWD - Location of element (128, 337)
+12:05:05.158  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //div[text()=' 27 ']
+12:05:05.215  INFO  manager.ListenerWD - After Find Element --->By.xpath: //div[text()=' 27 ']
+12:05:05.234  INFO  manager.ListenerWD - Location of element (298, 276)
+12:05:05.332  INFO  manager.ListenerWD - Before Find Element --->By.xpath: //div[text()=' 28 ']
+12:05:05.381  INFO  manager.ListenerWD - After Find Element --->By.xpath: //div[text()=' 28 ']
+12:05:05.403  INFO  manager.ListenerWD - Location of element (338, 275)
+12:05:06.211  INFO  manager.ListenerWD - Before Find Element --->By.cssSelector: button[type='submit']
+12:05:06.247  INFO  manager.ListenerWD - After Find Element --->By.cssSelector: button[type='submit']
+12:05:06.265  INFO  manager.ListenerWD - Location of element (128, 410)
+12:05:07.378  INFO  manager.ListenerWD - Huston we have a problem!
+12:05:07.379  INFO  manager.ListenerWD - Object target  --->[[ChromeDriver: chrome on WINDOWS (941684d7b04fa9c55236f348bffaeb90)] -> css selector: button[type='submit']]
+12:05:07.380  INFO  manager.ListenerWD - *************
+12:05:07.381  INFO  manager.ListenerWD - Method name --->click
+12:05:07.381  INFO  manager.ListenerWD - *************
+12:05:07.381  INFO  manager.ListenerWD - *************
+12:05:07.382  INFO  manager.ListenerWD - *************
+12:05:07.385  INFO  manager.ListenerWD - InvocationTargetException & getTargetException -->org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-ssa-c106="" type="submit" disabled="">...</button> is not clickable at point (183, 425). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=112.0.5615.138)
+Build info: version: '4.7.0', revision: '0a5b49d16f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.18'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [941684d7b04fa9c55236f348bffaeb90, clickElement {id=cb030c34-0be7-4ea2-817e-820fb51d91d9}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.138, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\ADAM-M~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49329}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49329/devtoo..., se:cdpVersion: 112.0.5615.138, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (941684d7b04fa9c55236f348bffaeb90)] -> css selector: button[type='submit']]
+Session ID: 941684d7b04fa9c55236f348bffaeb90
+12:05:07.387  INFO  manager.ListenerWD - *************
+12:05:07.395  INFO  manager.ListenerWD - Screen with error  is --->src/test/screenshots/screen_1310.png
