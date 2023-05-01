@@ -33,7 +33,7 @@ public class DataProviderCar {
                 .fuel("Hybrid")
                 .seats(5)
                 .carClass("C")
-                .carRegNumber("326-743")
+                .carRegNumber("410-765-")
                 .price(50)
                 .about("Very nice car")
                 .build()}));
@@ -45,7 +45,7 @@ public class DataProviderCar {
                 .fuel("Petrol")
                 .seats(5)
                 .carClass("C")
-                .carRegNumber("031-952-")
+                .carRegNumber("109-521-")
                 .price(70)
                 .about("Very nice car")
                 .build()}));
